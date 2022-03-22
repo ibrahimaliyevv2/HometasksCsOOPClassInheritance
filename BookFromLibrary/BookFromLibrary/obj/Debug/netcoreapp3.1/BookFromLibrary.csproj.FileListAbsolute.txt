@@ -1,0 +1,13 @@
+/Users/ibrahimaliyevv/Projects/HometasksCsOOPClassInheritance/BookFromLibrary/BookFromLibrary/obj/Debug/netcoreapp3.1/BookFromLibrary.csproj.AssemblyReference.cache
+/Users/ibrahimaliyevv/Projects/HometasksCsOOPClassInheritance/BookFromLibrary/BookFromLibrary/obj/Debug/netcoreapp3.1/BookFromLibrary.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ibrahimaliyevv/Projects/HometasksCsOOPClassInheritance/BookFromLibrary/BookFromLibrary/obj/Debug/netcoreapp3.1/BookFromLibrary.AssemblyInfoInputs.cache
+/Users/ibrahimaliyevv/Projects/HometasksCsOOPClassInheritance/BookFromLibrary/BookFromLibrary/obj/Debug/netcoreapp3.1/BookFromLibrary.AssemblyInfo.cs
+/Users/ibrahimaliyevv/Projects/HometasksCsOOPClassInheritance/BookFromLibrary/BookFromLibrary/obj/Debug/netcoreapp3.1/BookFromLibrary.csproj.CoreCompileInputs.cache
+/Users/ibrahimaliyevv/Projects/HometasksCsOOPClassInheritance/BookFromLibrary/BookFromLibrary/bin/Debug/netcoreapp3.1/BookFromLibrary.deps.json
+/Users/ibrahimaliyevv/Projects/HometasksCsOOPClassInheritance/BookFromLibrary/BookFromLibrary/bin/Debug/netcoreapp3.1/BookFromLibrary.runtimeconfig.json
+/Users/ibrahimaliyevv/Projects/HometasksCsOOPClassInheritance/BookFromLibrary/BookFromLibrary/bin/Debug/netcoreapp3.1/BookFromLibrary.runtimeconfig.dev.json
+/Users/ibrahimaliyevv/Projects/HometasksCsOOPClassInheritance/BookFromLibrary/BookFromLibrary/bin/Debug/netcoreapp3.1/BookFromLibrary.dll
+/Users/ibrahimaliyevv/Projects/HometasksCsOOPClassInheritance/BookFromLibrary/BookFromLibrary/bin/Debug/netcoreapp3.1/BookFromLibrary.pdb
+/Users/ibrahimaliyevv/Projects/HometasksCsOOPClassInheritance/BookFromLibrary/BookFromLibrary/obj/Debug/netcoreapp3.1/BookFromLibrary.dll
+/Users/ibrahimaliyevv/Projects/HometasksCsOOPClassInheritance/BookFromLibrary/BookFromLibrary/obj/Debug/netcoreapp3.1/BookFromLibrary.pdb
+/Users/ibrahimaliyevv/Projects/HometasksCsOOPClassInheritance/BookFromLibrary/BookFromLibrary/obj/Debug/netcoreapp3.1/BookFromLibrary.genruntimeconfig.cache
