@@ -3,11 +3,16 @@ namespace BookFromLibrary
 {
     public class Book:Product
     {
-        public string Genre;
-
-        public Book(int no, string name, double price, string genre, int count = 0) : base(no, name, price, count)
+        public Book(string genre, string name, int no, double price, int count) : base(name, no, price, count)
         {
-            Genre = genre;
+            this.genre = genre;
+
         }
+        public Book(string genre, string name, int no, double price) : base(name, no, price)
+        {
+            this.genre = genre;
+
+        }
+        public string genre;
     }
 }

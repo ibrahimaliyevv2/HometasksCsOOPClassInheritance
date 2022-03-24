@@ -3,73 +3,67 @@ namespace BookFromLibrary
 {
     public class Library
     {
-        
+        public Library()
+        {
+        }
         public Book[] books;
 
-        public void AddBook(Book enteredBook, Book[] books)
+        int j = 0;
+        public void AddBook(Book book)
         {
-            int count = 0;
-            for (int i = 0; i < books.Length; i++)
-            {
-                count++;
-                books[i] = enteredBook;
-            }
+            books[j++] = book;
         }
 
-        public Book[] GetFilteredBooks(string genreName)
+        public Book[] GetFiteredBooks(string genre)
         {
             int count = 0;
-            for (int i = 0; i < books.Length; i++)
-            {
-                if (books[i].Genre == genreName)
-                {
-                    count++;
-                }
-            }
-
-            int j = 0;
-            Book[] filteredBooks = new Book[count];
-            for (int i = 0; i < books.Length; i++)
-            {
-                if (books[i].Genre == genreName)
-                {
-                    filteredBooks[j] = books[i];
-                    j++;
-                }
-            }
-            return filteredBooks;
-        }
-
-        public Book[] GetFilteredBooks(double minPrice, double maxPrice)
-        {
-            int count = 0;
-            for (int i = 0; i < books.Length; i++)
-            {
-                if(books[i].Price>=minPrice && books[i].Price <= maxPrice)
-                {
-                    count++;
-                }
-            }
-
-            int j = 0;
-            Book[] filteredBooks = new Book[count];
-            for (int i = 0; i < books.Length; i++)
-            {
-                if (books[i].Price >= minPrice && books[i].Price <= maxPrice)
-                {
-                    filteredBooks[j] = books[i];
-                    j++;
-                }
-            }
-            return filteredBooks;
-        }
-
-        public void printBooks(Book[] books)
-        {
             foreach (var item in books)
             {
-                Console.WriteLine($"Name : {item.Name} Price {item.Price} Genre : {item.Genre} No : {item.No} Count : {item.Count} ");
+                if (item.genre == genre)
+                {
+                    count++;
+                }
             }
+            Book[] books2 = new Book[count];
+            int j = 0;
+            foreach (var item in books)
+            {
+                if (item.genre == genre)
+                {
+                    books2[j++] = item;
+                }
+            }
+            return books2;
+        }
+        public Book[] GetFiteredBooks(double minPrice, double Maxprice)
+        {
+            int count = 0;
+            foreach (var item in books)
+            {
+                if (item.price > minPrice && item.price < Maxprice)
+                {
+                    count++;
+                }
+            }
+            Book[] books2 = new Book[count];
+            int j = 0;
+            foreach (var item in books)
+            {
+                if (item.price > minPrice && item.price < Maxprice)
+                {
+                    books2[j++] = item;
+                }
+            }
+            return books2;
+        }
+        public void PrintBooks(Book[] books3)
+        {
+            foreach (var item in books3)
+            {
+                Console.WriteLine($"Name ; {item.name} , " +
+                $"Genre : {item.genre} , No : {item.no} Count : {item.count}  , Price : {item.price}");
+            }
+
         }
 
 

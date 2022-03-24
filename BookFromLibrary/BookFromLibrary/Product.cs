@@ -3,17 +3,23 @@ namespace BookFromLibrary
 {
     public class Product
     {
-        public Product(int no, string name, double price, int count = 0)
+        public Product(string name, int no, double price)
         {
-            this.No = no;
-            this.Name = name;
-            this.Price = price;
-            this.Count = count;
+            this.price = price;
+            this.name = name;
+            this.no = no;
+        }
+        public Product(string name, int no, double price, int count)
+        {
+            this.price = price;
+            this.name = name;
+            this.no = no;
+            this.count = count;
         }
 
-        public int No;
-        public string Name;
-        public double Price;
-        public int Count;
+        public string name;
+        public int no;
+        public double price;
+        public int count;
     }
 }
