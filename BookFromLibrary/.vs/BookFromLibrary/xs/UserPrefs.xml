@@ -3,8 +3,8 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="BookFromLibrary/Program.cs">
     <Files>
       <File FileName="BookFromLibrary/Book.cs" Line="16" Column="29" />
-      <File FileName="BookFromLibrary/Product.cs" Line="23" Column="26" />
-      <File FileName="BookFromLibrary/Library.cs" Line="28" Column="23" />
+      <File FileName="BookFromLibrary/Product.cs" />
+      <File FileName="BookFromLibrary/Library.cs" />
       <File FileName="BookFromLibrary/Program.cs" Line="19" Column="34" />
     </Files>
   </MonoDevelop.Ide.Workbench>
